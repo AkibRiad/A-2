@@ -1,7 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 *{
-    font-family: "Mulish", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal
+  font-style: normal;
+  margin: 0;
+  padding: 0;
 }
+
+/* shared style */
+#nav-color{
+  color: rgb(255, 84, 0);
+}
+h3{
+  font-size: 36px;
+font-weight: 200;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+
+
+
+/* shared style  */
+
+body{
+  width: 90%;
+  margin: 5rem auto;
+}
+
+/* navbar :start */
+nav{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+nav .head{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 280px;
+}
+nav .head img{
+  width: 48px;
+height: 56.01px;
+}
+
+.nav-item ul{
+display: flex;
+
+align-items: center;
+padding: 10px 0px 10px 0px;
+}
+.nav-item ul li{
+  list-style: none;
+  margin-right: 44px;
+  font-size: 18px;
+font-weight: 200;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center
+}
+.nav-item ul li a{
+  text-decoration: none;
+}
+#zero{
+  margin-right: 0;
+}
+
+/* navbar :end  */
+/* banner start  */
+.banner-container{
+  width: 1728px;
+height: 500px;
+  background-image: url('images/Group\ 13\ \(1\)\ \(1\).png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+/* banner end */
